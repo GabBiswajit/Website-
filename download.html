@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download - StaffMode Plugin</title>
+    <meta name="description" content="Download StaffMode plugin for PocketMine-MP servers. Get the latest version with installation instructions and requirements.">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="assets/logo.svg" alt="StaffMode Logo" width="32" height="32" class="me-2">
+                StaffMode
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="features.html">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="download.html">Download</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="documentation.html">Documentation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="display-4 fw-bold text-white mb-3">Download StaffMode</h1>
+                    <p class="lead text-white-50">Get the latest version of StaffMode plugin</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <!-- Enhanced Version -->
+                    <div class="card border-0 shadow-sm mb-4">
+                        <div class="card-body p-4">
+                            <div class="row align-items-center">
+                                <div class="col-md-8">
+                                    <h3 class="card-title mb-2">StaffMode Enhanced v1.1.0</h3>
+                                    <p class="text-muted mb-3">Latest enhanced version with FormAPI UIs and advanced item protection</p>
+                                    <div class="d-flex flex-wrap gap-2">
+                                        <span class="badge bg-primary">API 5.0</span>
+                                        <span class="badge bg-success">Enhanced</span>
+                                        <span class="badge bg-info">FormAPI</span>
+                                        <span class="badge bg-warning">Latest</span>
+                                        <span class="badge bg-danger">New Features</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 text-md-end">
+                                    <a href="/api/download/StaffMode-Enhanced-v1.1.0-PixelforgeStudios.zip" class="btn btn-primary btn-lg w-100" onclick="handleDownload('StaffMode-Enhanced-v1.1.0-PixelforgeStudios.zip')">
+                                        <i class="fas fa-download me-2"></i>Download Enhanced
+                                    </a>
+                                    <small class="text-muted d-block mt-2">Size: ~35KB | Pixelforge Studios</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Original Version -->
+                    <div class="card border-0 shadow-sm mb-4">
+                        <div class="card-body p-4">
+                            <div class="row align-items-center">
+                                <div class="col-md-8">
+                                    <h3 class="card-title mb-2">StaffMode v1.0.0 (Original)</h3>
+                                    <p class="text-muted mb-3">Original stable release for PocketMine-MP API 5.0</p>
+                                    <div class="d-flex flex-wrap gap-2">
+                                        <span class="badge bg-primary">API 5.0</span>
+                                        <span class="badge bg-success">Stable</span>
+                                        <span class="badge bg-info">FormAPI</span>
+                                        <span class="badge bg-secondary">Legacy</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 text-md-end">
+                                    <a href="/api/download/StaffMode.zip" class="btn btn-outline-primary btn-lg w-100" onclick="handleDownload('StaffMode.zip')">
+                                        <i class="fas fa-download me-2"></i>Download Original
+                                    </a>
+                                    <small class="text-muted d-block mt-2">Size: ~25KB</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Requirements -->
+                    <div class="card border-0 shadow-sm mb-4">
+                        <div class="card-body p-4">
+                            <h4 class="card-title mb-3">
+                                <i class="fas fa-exclamation-triangle text-warning me-2"></i>Requirements
+                            </h4>
+                            <ul class="list-unstyled">
+                                <li class="mb-2">
+                                    <i class="fas fa-check text-success me-2"></i>
+                                    <strong>PocketMine-MP 5.0+</strong> - Latest stable version recommended
+                                </li>
+                                <li class="mb-2">
+                                    <i class="fas fa-check text-success me-2"></i>
+                                    <strong>FormAPI Plugin</strong> - Required for UI functionality
+                                </li>
+                                <li class="mb-2">
+                                    <i class="fas fa-check text-success me-2"></i>
+                                    <strong>PHP 8.1+</strong> - Minimum PHP version
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Installation Instructions -->
+                    <div class="card border-0 shadow-sm mb-4">
+                        <div class="card-body p-4">
+                            <h4 class="card-title mb-3">
+                                <i class="fas fa-cog text-primary me-2"></i>Installation Instructions
+                            </h4>
+                            <ol class="list-group list-group-numbered list-group-flush">
+                                <li class="list-group-item border-0 px-0">
+                                    <strong>Download FormAPI</strong><br>
+                                    <small class="text-muted">Ensure FormAPI plugin is installed on your server first</small>
+                                </li>
+                                <li class="list-group-item border-0 px-0">
+                                    <strong>Download StaffMode</strong><br>
+                                    <small class="text-muted">Download the latest StaffMode.phar file</small>
+                                </li>
+                                <li class="list-group-item border-0 px-0">
+                                    <strong>Upload to Plugins Folder</strong><br>
+                                    <small class="text-muted">Place the .phar file in your server's plugins directory</small>
+                                </li>
+                                <li class="list-group-item border-0 px-0">
+                                    <strong>Restart Server</strong><br>
+                                    <small class="text-muted">Restart your PocketMine-MP server to load the plugin</small>
+                                </li>
+                                <li class="list-group-item border-0 px-0">
+                                    <strong>Configure Plugin</strong><br>
+                                    <small class="text-muted">Use in-game commands or configuration file to set up the plugin</small>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <!-- Quick Start -->
+                    <div class="card border-0 shadow-sm mb-4">
+                        <div class="card-body p-4">
+                            <h4 class="card-title mb-3">
+                                <i class="fas fa-rocket text-success me-2"></i>Quick Start
+                            </h4>
+                            <p class="mb-3">After installation, use these commands to get started:</p>
+                            <div class="bg-dark text-white p-3 rounded mb-3">
+                                <code>
+                                    /staffmode - Toggle staff mode on/off<br>
+                                    /staffmode settings - Open settings UI<br>
+                                    /staffmode freeze &lt;player&gt; - Freeze a player<br>
+                                    /staffmode unfreeze &lt;player&gt; - Unfreeze a player
+                                </code>
+                            </div>
+                            <p class="text-muted">
+                                <i class="fas fa-info-circle me-2"></i>
+                                Make sure to set proper permissions for staff members in your permission plugin.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Support -->
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <h4 class="card-title mb-3">
+                                <i class="fas fa-life-ring text-info me-2"></i>Need Help?
+                            </h4>
+                            <p class="mb-3">If you encounter any issues during installation or usage:</p>
+                            <div class="d-flex gap-2 flex-wrap">
+                                <a href="documentation.html" class="btn btn-outline-primary">
+                                    <i class="fas fa-book me-2"></i>Read Documentation
+                                </a>
+                                <a href="contact.html" class="btn btn-outline-secondary">
+                                    <i class="fas fa-envelope me-2"></i>Contact Support
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>StaffMode</h5>
+                    <p class="text-white-50">Professional PocketMine server management plugin.<br><small class="text-white-50">Developed by Pixelforge Studios by Wenox</small></p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="https://github.com" class="text-white me-3">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://discord.com" class="text-white me-3">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                    <a href="contact.html" class="text-white">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <hr class="my-3">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="mb-0 text-white-50">&copy; 2025 Pixelforge Studios by Wenox. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>

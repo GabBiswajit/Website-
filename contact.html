@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - StaffMode Plugin</title>
+    <meta name="description" content="Get support for StaffMode plugin. Contact us for help, report bugs, or request features.">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="assets/logo.svg" alt="StaffMode Logo" width="32" height="32" class="me-2">
+                StaffMode
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="features.html">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="download.html">Download</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="documentation.html">Documentation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="display-4 fw-bold text-white mb-3">Contact & Support</h1>
+                    <p class="lead text-white-50">Get help, report issues, or request features</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <!-- Contact Methods -->
+                <div class="col-lg-4 mb-4">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body text-center p-4">
+                            <i class="fab fa-github fa-3x text-primary mb-3"></i>
+                            <h5 class="card-title">GitHub</h5>
+                            <p class="card-text">Report bugs, request features, or contribute to the project.</p>
+                            <a href="https://github.com" class="btn btn-outline-primary">
+                                <i class="fab fa-github me-2"></i>Visit Repository
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-4">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body text-center p-4">
+                            <i class="fab fa-discord fa-3x text-primary mb-3"></i>
+                            <h5 class="card-title">Discord</h5>
+                            <p class="card-text">Join our community for real-time support and discussions.</p>
+                            <a href="https://discord.com" class="btn btn-outline-primary">
+                                <i class="fab fa-discord me-2"></i>Join Server
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-4">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body text-center p-4">
+                            <i class="fas fa-envelope fa-3x text-primary mb-3"></i>
+                            <h5 class="card-title">Email</h5>
+                            <p class="card-text">Send us detailed questions or feedback via email.</p>
+                            <a href="mailto:support@staffmode.com" class="btn btn-outline-primary">
+                                <i class="fas fa-envelope me-2"></i>Send Email
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ Section -->
+            <div class="row mt-5">
+                <div class="col-lg-12">
+                    <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                    How do I install StaffMode?
+                                </button>
+                            </h3>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p>Installing StaffMode is simple:</p>
+                                    <ol>
+                                        <li>Download and install FormAPI plugin first</li>
+                                        <li>Download the StaffMode.phar file</li>
+                                        <li>Place it in your server's plugins directory</li>
+                                        <li>Restart your server</li>
+                                    </ol>
+                                    <p>For detailed instructions, visit our <a href="download.html">download page</a>.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                    What PocketMine version is supported?
+                                </button>
+                            </h3>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p>StaffMode is built for PocketMine-MP API 5.0 and higher. Make sure you're running:</p>
+                                    <ul>
+                                        <li>PocketMine-MP 5.0+</li>
+                                        <li>PHP 8.1 or higher</li>
+                                        <li>FormAPI plugin installed</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                    How do I configure permissions?
+                                </button>
+                            </h3>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p>StaffMode uses standard PocketMine permissions. Grant these permissions to your staff:</p>
+                                    <ul>
+                                        <li><code>staffmode.use</code> - Basic staff mode access</li>
+                                        <li><code>staffmode.freeze</code> - Freeze/unfreeze players</li>
+                                        <li><code>staffmode.settings</code> - Access settings UI</li>
+                                        <li><code>staffmode.admin</code> - Full administrative access</li>
+                                    </ul>
+                                    <p>See our <a href="documentation.html#permissions">documentation</a> for complete details.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                    Why aren't the UI forms working?
+                                </button>
+                            </h3>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p>If FormAPI interfaces aren't showing, check these common issues:</p>
+                                    <ul>
+                                        <li>FormAPI plugin is installed and enabled</li>
+                                        <li>FormAPI version is compatible with your PocketMine version</li>
+                                        <li>UI is enabled in StaffMode configuration</li>
+                                        <li>Player has proper permissions</li>
+                                    </ul>
+                                    <p>If issues persist, check your server logs for error messages.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                                    How do I report bugs or request features?
+                                </button>
+                            </h3>
+                            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p>We welcome bug reports and feature requests:</p>
+                                    <ul>
+                                        <li><strong>GitHub Issues:</strong> Best for bug reports and feature requests</li>
+                                        <li><strong>Discord:</strong> Great for questions and community discussions</li>
+                                        <li><strong>Email:</strong> For detailed technical issues</li>
+                                    </ul>
+                                    <p>When reporting bugs, please include:</p>
+                                    <ul>
+                                        <li>PocketMine version</li>
+                                        <li>StaffMode version</li>
+                                        <li>Error messages from logs</li>
+                                        <li>Steps to reproduce the issue</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Support Guidelines -->
+            <div class="row mt-5">
+                <div class="col-lg-12">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <h4 class="card-title mb-3">
+                                <i class="fas fa-info-circle text-primary me-2"></i>Support Guidelines
+                            </h4>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h6>Before Contacting Support:</h6>
+                                    <ul>
+                                        <li>Check the <a href="documentation.html">documentation</a></li>
+                                        <li>Review the FAQ section above</li>
+                                        <li>Search existing GitHub issues</li>
+                                        <li>Ensure you're using the latest version</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <h6>When Reporting Issues:</h6>
+                                    <ul>
+                                        <li>Include server and plugin versions</li>
+                                        <li>Provide error messages or logs</li>
+                                        <li>Describe steps to reproduce</li>
+                                        <li>Mention any related plugins</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>StaffMode</h5>
+                    <p class="text-white-50">Professional PocketMine server management plugin.<br><small class="text-white-50">Developed by Pixelforge Studios by Wenox</small></p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="https://github.com" class="text-white me-3">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://discord.com" class="text-white me-3">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                    <a href="contact.html" class="text-white">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <hr class="my-3">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="mb-0 text-white-50">&copy; 2025 Pixelforge Studios by Wenox. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
