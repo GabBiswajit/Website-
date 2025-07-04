@@ -71,11 +71,12 @@
                             <div class="row align-items-center">
                                 <div class="col-md-8">
                                     <h3 class="card-title mb-2">StaffMode v1.0.0 (Original)</h3>
-                                    <p   ass="text-muted mb-3">Original stable release for PocketMine-MP API 5.0</p>
+                                    <p class="text-muted mb-3">Original stable release for PocketMine-MP API 5.0.0</p>
                                     <div class="d-flex flex-wrap gap-2">
-                                        <span class="badge bg-primary">API 5.0</span>
+                                        <span class="badge bg-primary">API 5.0.0</span>
                                         <span class="badge bg-success">Stable</span>
                                         <span class="badge bg-info">FormAPI</span>
+                                        <span class="badge bg-info">Libasynql</span>
                                         <span class="badge bg-secondary">Legacy</span>
                                     </div>
                                 </div>
@@ -106,6 +107,10 @@
                                 </li>
                                 <li class="mb-2">
                                     <i class="fas fa-check text-success me-2"></i>
+                                    <strong>Libasynql Plugin</strong> - Required for UI functionality
+                                </li>
+                                <li class="mb-2">
+                                    <i class="fas fa-check text-success me-2"></i>
                                     <strong>PHP 8.1+</strong> - Minimum PHP version
                                 </li>
                             </ul>
@@ -122,6 +127,10 @@
                                 <li class="list-group-item border-0 px-0">
                                     <strong>Download FormAPI</strong><br>
                                     <small class="text-muted">Ensure FormAPI plugin is installed on your server first</small>
+                                </li>
+                                <li class="list-group-item border-0 px-0">
+                                    <strong>Download Libasynql</strong><br>
+                                    <small class="text-muted">Ensure Libasynql Lib is installed on your server first</small>
                                 </li>
                                 <li class="list-group-item border-0 px-0">
                                     <strong>Download StaffMode</strong><br>
@@ -152,10 +161,7 @@
                             <p class="mb-3">After installation, use these commands to get started:</p>
                             <div class="bg-dark text-white p-3 rounded mb-3">
                                 <code>
-                                    /staffmode - Toggle staff mode on/off<br>
-                                    /staffmode settings - Open settings UI<br>
-                                    /staffmode freeze &lt;player&gt; - Freeze a player<br>
-                                    /staffmode unfreeze &lt;player&gt; - Unfreeze a player
+                                    /staffmode | /sm | /staff - Toggle staff mode on/off<br
                                 </code>
                             </div>
                             <p class="text-muted">
